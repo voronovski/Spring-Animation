@@ -58,15 +58,47 @@
 		FA71DB66297BC17B00072173 /* Spring Animation */ = {
 			isa = PBXGroup;
 			children = (
-				FA71DB67297BC17B00072173 /* AppDelegate.swift */,
-				FA71DB69297BC17B00072173 /* SceneDelegate.swift */,
-				FA71DB6B297BC17B00072173 /* ViewController.swift */,
-				FA71DB6D297BC17B00072173 /* Main.storyboard */,
+				FAAFB3082982272C00AF3929 /* Model */,
+				FAAFB3062982270D00AF3929 /* Delegates */,
+				FAAFB305298226D700AF3929 /* ViewControllers */,
+				FAAFB3072982271900AF3929 /* Storyboards */,
 				FA71DB70297BC17C00072173 /* Assets.xcassets */,
-				FA71DB72297BC17C00072173 /* LaunchScreen.storyboard */,
 				FA71DB75297BC17C00072173 /* Info.plist */,
 			);
 			path = "Spring Animation";
+			sourceTree = "<group>";
+		};
+		FAAFB305298226D700AF3929 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FA71DB6B297BC17B00072173 /* ViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FAAFB3062982270D00AF3929 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				FA71DB67297BC17B00072173 /* AppDelegate.swift */,
+				FA71DB69297BC17B00072173 /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		FAAFB3072982271900AF3929 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				FA71DB72297BC17C00072173 /* LaunchScreen.storyboard */,
+				FA71DB6D297BC17B00072173 /* Main.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		FAAFB3082982272C00AF3929 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
